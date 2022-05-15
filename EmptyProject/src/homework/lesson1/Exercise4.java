@@ -18,11 +18,10 @@ public class Exercise4 {
      * @return
      */
     public static boolean check(int a, int b) {
-        if (a + b == 10)
+        int sum = a + b;
+        if (sum == 10 || sum <= 20)
             return true;
-        else if (a + b <= 20){
-            return true;
-        }else {
+        else {
             return false;
         }
     }
