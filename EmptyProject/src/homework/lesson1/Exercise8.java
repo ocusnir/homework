@@ -8,13 +8,11 @@ public class Exercise8 {
         LeapYear(year);
 
     }
-    public static void LeapYear(int y) {
+  public static void LeapYear(int y) {
         if (y % 4 == 0 || y % 100 == 0 || y % 400 == 0)
             System.out.println("Этот год, високосный");
-        else {
+        else
             System.out.println("Этот год, не високосный");
-       }
-
     }
 }
 
