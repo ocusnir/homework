@@ -19,7 +19,7 @@ public class Exercise4 {
      */
     public static boolean check(int a, int b) {
         int sum = a + b;
-        if (sum == 10 || sum <= 20)
+        if (sum >= 10 || sum <= 20)
             return true;
         else {
             return false;
